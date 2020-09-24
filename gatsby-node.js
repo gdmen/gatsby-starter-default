@@ -13,8 +13,8 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
     })
   }
 }
-/*
-exports.createPagesStatefully = async ({ graphql, actions }) => {
+
+exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions
   const result = await graphql(`
     query {
@@ -43,4 +43,3 @@ exports.createPagesStatefully = async ({ graphql, actions }) => {
     })
   })
 }
-*/
